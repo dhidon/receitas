@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #feece0;
+  font-family: "source serif pro", serif;
+}
+
+.top {
+  display: flex;
+  gap: 56px;
+  align-items: center;
+  justify-content: center;
+  margin: 122px 180px 56px;
+}
+
+picture img {
+  width: 409px;
+  height: 293px;
+}
+
+.top h1 {
+  font-family: source serif pro;
+  font-size: 72px;
+  font-weight: 700;
+  color: #58190a;
+}
+
+.top p {
+  font-size: 38px;
+  color: #58190a;
+  font-weight: 400;
+}
+
+.buttons span {
+  font-size: 35px;
+  color: #9b6647;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#decrease,
+#increase {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#counter {
+  font-size: 40px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  background-color: #9b6647;
+  height: 100vh;
+  padding: 50px 74px;
+}
+
+#ingredients,
+#prep {
+  color: #feece0;
+}
+
+#ingredients h1,
+#prep h1 {
+  display: inline;
+  font-size: 38px;
+  font-family: "source serif pro";
+}
+
+#ingredients img,
+#prep img {
+  margin-right: 11px;
+}
+
+#ingredients ul,
+#prep ol {
+  margin-top: 35px;
+  padding-left: 32px;
+}
+
+li {
+  font-size: 28px;
+  font-family: "source sans pro", serif;
+}
